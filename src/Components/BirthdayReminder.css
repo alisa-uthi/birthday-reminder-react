@@ -1,0 +1,44 @@
+.reminder-section{
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+}
+.reminder-section h1, article{
+  margin-bottom: 20px;
+}
+.reminder-section article{
+  display: flex;
+}
+.reminder-section h1, .name{
+  letter-spacing: 3px;
+}
+.reminder-section img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.reminder-section .name{
+  margin-left: 20px;
+  margin-top: 15px;
+  text-transform: capitalize;
+}
+.reminder-section .age{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 100px;
+  color: grey;
+  font-weight: 300;
+}
+.reminder-section .btn{
+  display: block;
+  width: 100%;
+  padding: 10px 10px;
+  background-color: rosybrown;
+  color: white;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 800;
+}
